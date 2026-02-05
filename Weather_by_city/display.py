@@ -1,4 +1,3 @@
-from typing import Dict
 from colorama import Fore, Style, init
 
 init(autoreset=True)
@@ -24,7 +23,7 @@ def get_icon(description: str) -> str:
     return "🌡️"
 
 
-def show_weather(data: Dict):
+def show_weather(data: dict) -> None:
     """ Display current weather with color and icon
     """
     if "error" in data:
@@ -43,7 +42,7 @@ def show_weather(data: Dict):
     print(Fore.CYAN + f"Humidity: {humidity}%")
 
 
-def show_forecast(forecast_data: Dict):
+def show_forecast(forecast_data: dict) -> None:
     """Display 5-day weather forecast with color and icons
     """
     if "error" in forecast_data:

@@ -5,7 +5,7 @@ from weather_api import fetch_weather, fetch_forecast
 from display import show_weather, show_forecast
 
 
-async def main():
+async def main() -> None:
     """Main program entry: asks user for city names and displays weather info
     """
     cities_input = input("Enter the names of cities in English, separating them with commas: ")

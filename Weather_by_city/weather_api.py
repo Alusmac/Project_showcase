@@ -1,12 +1,11 @@
 import aiohttp
-from typing import Dict
 
 API_KEY = "c46d0f307cd4846b3e7e0ca1a90d6b05"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast"
 
 
-async def fetch_weather(session: aiohttp.ClientSession, city: str) -> Dict:
+async def fetch_weather(session: aiohttp.ClientSession, city: str) -> dict:
     """Gets current weather data for a given city
     """
     params = {"q": city, "appid": API_KEY, "units": "metric", "lang": "en"}
@@ -23,7 +22,7 @@ async def fetch_weather(session: aiohttp.ClientSession, city: str) -> Dict:
         return {"error": str(e)}
 
 
-async def fetch_forecast(session: aiohttp.ClientSession, city: str) -> Dict:
+async def fetch_forecast(session: aiohttp.ClientSession, city: str) -> dict:
     """ Gets current weather data for 5 days for a given city
     """
     params = {"q": city, "appid": API_KEY, "units": "metric", "lang": "en"}
