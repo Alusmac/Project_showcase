@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e630aefe-2259-4cdb-abc1-148c5ebc5c8a" name="Changes" comment="cimmit and Push">
-      <change afterPath="$PROJECT_DIR$/.idea/Project_showcase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/board/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/board/build.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/board/display.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/board/re_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/board/update.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/game/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/game/change_player.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/game/check_draw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/game/check_win.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/game/play.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/player/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/player/check_move.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/player/look_move.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/player/use_move.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tic_tac_toe/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/tic_tac_toe_game_python/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather_by_city/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather_by_city/display.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather_by_city/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weather_by_city/weather_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +55,15 @@
     "Python.check_move.executor": "Run",
     "Python.display.executor": "Run",
     "Python.look_move.executor": "Run",
+    "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
+    "Python.pip.executor": "Run",
     "Python.play.executor": "Run",
     "Python.update.executor": "Run",
     "Python.use_move.executor": "Run",
+    "Python.weather_api.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
@@ -86,8 +74,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="check_move" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_showcase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,35 +89,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tic_tac_toe/game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Weather_by_city" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic_tac_toe/game/check_move.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="look_move" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project_showcase" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tic_tac_toe/game" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic_tac_toe/game/look_move.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Weather_by_city/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,6 +126,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project_showcase" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv/bin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.venv/bin/pip" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="play" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_showcase" />
       <option name="ENV_FILES" value="" />
@@ -179,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="use_move" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="weather_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_showcase" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,12 +181,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tic_tac_toe/game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Weather_by_city" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tic_tac_toe/game/use_move.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Weather_by_city/weather_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.weather_api" />
+        <item itemvalue="Python.pip" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.play" />
-        <item itemvalue="Python.use_move" />
-        <item itemvalue="Python.check_move" />
-        <item itemvalue="Python.look_move" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +220,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768905999565</updated>
-      <workItem from="1769778258394" duration="448000" />
+      <workItem from="1769778258394" duration="1340000" />
+      <workItem from="1770016251726" duration="12000" />
+      <workItem from="1770283954871" duration="5272000" />
     </task>
     <task id="LOCAL-00001" summary="cimmit and Push">
       <option name="closed" value="true" />
@@ -237,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768906604234</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cimmit and Push">
+      <option name="closed" value="true" />
+      <created>1769778735540</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769778735540</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,5 +249,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cimmit and Push" />
     <option name="LAST_COMMIT_MESSAGE" value="cimmit and Push" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_showcase$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1770292772039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Weather_by_city" />
+    <SUITE FILE_PATH="coverage/Project_showcase$pip.coverage" NAME="pip Coverage Results" MODIFIED="1770289670718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/bin" />
+    <SUITE FILE_PATH="coverage/Project_showcase$play.coverage" NAME="play Coverage Results" MODIFIED="1769778642882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tic_tac_toe_game_python/game" />
+    <SUITE FILE_PATH="coverage/Project_showcase$main.coverage" NAME="main Coverage Results" MODIFIED="1769778672421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tic_tac_toe_game_python" />
+    <SUITE FILE_PATH="coverage/Project_showcase$weather_api.coverage" NAME="weather_api Coverage Results" MODIFIED="1770290878653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Weather_by_city" />
   </component>
 </project>
