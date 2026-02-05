@@ -1,6 +1,6 @@
 import aiohttp
 
-API_KEY = "c46d0f307cd4846b3e7e0ca1a90d6b05"
+API_KEY = "API_KEY" #Secret type: OpenWeatherMap Token
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 FORECAST_URL = "https://api.openweathermap.org/data/2.5/forecast"
 
